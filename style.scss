@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;   
+    font-family: 'Overpass', sans-serif; 
+}
+.card-container{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:hsl(216, 12%, 8%);
+    .card{
+        width: 450px;
+        height: 460px;
+        background-color: hsl(213, 19%, 18%);
+        padding:2.5rem;
+        border-radius: 20px;
+        .card-1{
+            background-color: rgba(116, 127, 139, 0.1);
+            padding: .8rem;
+            border-radius: 50%;
+        }        
+        h1{
+            color: white;
+            padding: 1rem 0;
+            letter-spacing: 1px;
+        }
+        p{
+            color: rgba(245, 245, 245, 0.39);
+            line-height: 1.5em;
+        }       
+        .pagination{
+            width: 100%;            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 1rem;
+            list-style: none;
+            padding: 3rem 0;
+            button{
+                z-index: 10;
+                cursor: pointer;
+                background-color:rgba(116, 127, 139, 0.1);
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                outline: none;
+                border: none;
+                color: white;
+                &:hover,&:focus{
+                    background-color: hsl(25, 97%, 53%);
+                    color: white;
+                }
+            }
+        }
+        .Submit{
+            cursor: pointer;
+            background-color: hsl(25, 97%, 53%);
+            border: none;
+            width: 100%;
+            border-radius: 50px;
+            padding: .8rem;
+            color: white;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;  
+            &:hover{
+                background-color: white;
+                color:hsl(25, 97%, 53%) ;
+            }          
+        }
+    }
+    
+    // thank You card
+    .card-thankYou{
+        width: 450px;
+        height: 460px;
+        background-color: hsl(213, 19%, 18%);
+        padding:2.5rem;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;        
+    }
+    h1{
+        color:white;
+    }
+    .card-2{
+        background-color: transparent !important;
+    }
+    .rating{
+        background:rgba(116, 127, 139, 0.1);
+        padding: .5rem 1rem;
+        border-radius: 50px;
+        font-size: 15px;
+        color: hsl(25, 97%, 53%);
+    }
+    .tyMessage{
+        color: rgba(245, 245, 245, 0.39);
+            line-height: 1.5em;
+            text-align: center;
+    }
+}

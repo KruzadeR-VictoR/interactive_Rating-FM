@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+
+.card-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #121417;
+}
+
+.card-container .card {
+  width: 450px;
+  height: 460px;
+  background-color: #252d37;
+  padding: 2.5rem;
+  border-radius: 20px;
+}
+
+.card-container .card .card-1 {
+  background-color: rgba(116, 127, 139, 0.1);
+  padding: .8rem;
+  border-radius: 50%;
+}
+
+.card-container .card h1 {
+  color: white;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+}
+
+.card-container .card p {
+  color: rgba(245, 245, 245, 0.39);
+  line-height: 1.5em;
+}
+
+.card-container .card .pagination {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 3rem 0;
+}
+
+.card-container .card .pagination button {
+  z-index: 10;
+  cursor: pointer;
+  background-color: rgba(116, 127, 139, 0.1);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.card-container .card .pagination button:hover, .card-container .card .pagination button:focus {
+  background-color: #fb7413;
+  color: white;
+}
+
+.card-container .card .Submit {
+  cursor: pointer;
+  background-color: #fb7413;
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  padding: .8rem;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card-container .card .Submit:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.card-container .card-thankYou {
+  width: 450px;
+  height: 460px;
+  background-color: #252d37;
+  padding: 2.5rem;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-container h1 {
+  color: white;
+}
+
+.card-container .card-2 {
+  background-color: transparent !important;
+}
+
+.card-container .rating {
+  background: rgba(116, 127, 139, 0.1);
+  padding: .5rem 1rem;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #fb7413;
+}
+
+.card-container .tyMessage {
+  color: rgba(245, 245, 245, 0.39);
+  line-height: 1.5em;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
