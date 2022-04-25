@@ -51,7 +51,11 @@
                 outline: none;
                 border: none;
                 color: white;
-                &:hover,&:focus{
+                &:hover{
+                    background-color: hsl(216, 12%, 54%);
+                    color: white;
+                }
+                &:focus{
                     background-color: hsl(25, 97%, 53%);
                     color: white;
                 }

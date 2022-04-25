@@ -73,7 +73,12 @@
   color: white;
 }
 
-.card-container .card .pagination button:hover, .card-container .card .pagination button:focus {
+.card-container .card .pagination button:hover {
+  background-color: #7c8798;
+  color: white;
+}
+
+.card-container .card .pagination button:focus {
   background-color: #fb7413;
   color: white;
 }
